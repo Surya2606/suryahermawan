@@ -1,0 +1,61 @@
+.bg.light{
+    background-color: #EBD8C8;
+}
+.title {
+    text-align: center;
+    color: #137576;
+    margin-bottom: 40px;
+    font-family:'Times New Roman', Times, serif
+}
+.subtitle, .titleabout, .titleblog, .titlecontact{
+    text-align: center;
+    color: #137576;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+}
+section#about p {
+    text-align: center;
+}
+section#about, section#blog, section#contact{
+    padding: 40px;
+}
+.navbar {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.portfolio-image {
+    width: 100%;
+}
+section#team, section#portfolio {
+    padding: 40px;
+    background-color: #137576;
+    color: #fff;
+}
+.card-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+}
+.titleteam, .titleport {
+    text-align: center;
+    color: #EBD8C8;
+}   
+.container {
+    padding: 4em 1em;
+}
+
+.footer-copyright{
+    color: #EBD8C8;
+    text-align: center;
+    background-color: #137576;
+    font-size: 20px;
+}
+.containerfooter{
+    background-color: #137576;
+    color: #EBD8C8;
+    justify-content: center;
+}
